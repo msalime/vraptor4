@@ -18,6 +18,11 @@ public class DefaultInvalidInputHandler implements InvalidInputHandler {
 
 	private final Result result;
 
+
+	DefaultInvalidInputHandler(){
+		
+	}
+
 	@Inject
 	public DefaultInvalidInputHandler(Result result) {
 		this.result = result;
